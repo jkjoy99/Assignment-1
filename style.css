@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*** Bannar Style ***/
+.banner {
+    height: 800px;
+    background-image: url("/images/banner/banner2.png");
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 140px;
+}
+
+.banner-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    width: 45%;
+}
+
+.banner-title {
+    font-size: 60px;
+}
+
+.banner-btn {
+    color: white;
+    background-color: #F15B22;
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
