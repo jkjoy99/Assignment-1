@@ -34,3 +34,58 @@ body {
     cursor: pointer;
     margin-top: 20px;
 }
+
+/*** Failures Section ***/
+.failures-section {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+.failures-img {
+    width: 50%;
+}
+
+.failures-items {
+    width: 50%;
+    margin-left: 150px;
+}
+
+#items-title {
+    font-size: 40px;
+}
+
+.failures-list {
+    display: flex;
+    align-items: center;
+}
+
+.list-img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+/**** my-items ****/
+.plans-title {
+    text-align: center;
+}
+
+.plans-items {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 70px;
+}
+
+.plan {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+}
+
+.plan img {
+    height: 70px;
+    width: 70px;
+}
