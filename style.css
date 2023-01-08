@@ -40,7 +40,7 @@ margin-right: 15px;
 /*** Bannar Style ***/
 .banner {
     height: 800px;
-    background-image: url("/images/banner/banner1.png");
+    background-image: url("/images/banner/banner4.jpg");
     display: flex;
     justify-content: end;
     align-items: center;
