@@ -3,10 +3,44 @@ body {
     padding: 0;
 }
 
+/*** Header style ***/
+.header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #F15B22;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.nav-link a:hover{
+    color: antiquewhite;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+margin-right: 15px;
+}
+
 /*** Bannar Style ***/
 .banner {
     height: 800px;
-    background-image: url("/images/banner/banner2.png");
+    background-image: url("/images/banner/banner1.png");
     display: flex;
     justify-content: end;
     align-items: center;
@@ -122,7 +156,6 @@ body {
 }
 
 /*** Footer ***/
-
 footer {
     background-color: black;
     color: white;
