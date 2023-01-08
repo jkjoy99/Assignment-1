@@ -89,3 +89,100 @@ body {
     height: 70px;
     width: 70px;
 }
+
+/* Bonous Section */
+.bonous-section {
+    background-image: url("images/watch.png");
+    height: 200px;
+    width: 1000px;
+    margin: 80px;
+    margin-left: 140px;
+}
+
+.bonous-items {
+    background-image: linear-gradient(to right, #E95B24, rgba(221, 36, 231, 0.223));
+    height: 200px;
+    padding-left: 40px;
+}
+
+.bonous-title {
+    font-size: 36px;
+    color: white;
+    padding-top: 30px;
+}
+
+.bonous-btn {
+    border: none;
+    border: 4px;
+    height: 40px;
+    width: 100px;
+    color: #E95B24;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*** Footer ***/
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 100px 100px 0;
+}
+
+.footer-item {
+    width: 400px;
+}
+
+.social-icon {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.footer-input {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    font-size: 10px;
+    padding-left: 18px;
+}
+
+.footer-btn {
+    background-color: white;
+    color: #E95B24;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.developer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.developer1 {
+    display: flex;
+}
+
+.developer1 img {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+    font-weight: bold;
+}
